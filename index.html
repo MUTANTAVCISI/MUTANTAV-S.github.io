@@ -3,24 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benim GitHub Sitem</title>
+    <title>Kişisel Web Sitem</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             text-align: center;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
             background-color: #f4f4f4;
-            padding: 50px;
         }
-        h1 {
+        .container {
+            margin-top: 50px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        .links a {
+            display: block;
+            margin: 10px;
+            text-decoration: none;
             color: #333;
-        }
-        p {
             font-size: 18px;
         }
     </style>
 </head>
 <body>
-    <h1>Merhaba, Dünya!</h1>
-    <p>Bu benim GitHub Pages üzerinden yayınladığım basit bir web sitesi.</p>
+    <div class="container">
+        <img src="profil.jpg" alt="Profil Fotoğrafı">
+        <h2>Muz avcısı</h2>
+        <div class="links">
+            <a href="https://google.com" target="_blank">google</a>
+            <a href="https://youtube.com" target="_blank">youtube</a>
+            <a href="mailto:email@example.com">E-Posta</a>
+        </div>
+    </div>
 </body>
 </html>
